@@ -10,6 +10,10 @@ def nod(n, m):
     return n + m
 
 
+def nok(n, m):
+    return n * m // nod(n, m)
+
+
 def main():
     n = int(input())
     m = int(input())
