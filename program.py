@@ -1,6 +1,3 @@
-# n * m / nod(n, m)
-
-
 def nod(n, m):
     if n < 0 or m < 0:
         raise Exception('n<=0 or m<=0! n and m should be positive numbers!')
@@ -11,10 +8,6 @@ def nod(n, m):
         n = m
         m = r
     return n + m
-
-
-def nok(n, m):
-    return n * m // nod(n, m)
 
 
 def main():

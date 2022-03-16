@@ -3,7 +3,7 @@ from program import nok
 
 class Nok_Tests(unittest.TestCase):
     def test_testcase1(self):
-        self.assertEqual(nok(25,35), 17)
+        self.assertEqual(nok(25,35), 175)
 
     def test_testcase2(self):
         self.assertEqual(nok(1, 1), 1)
