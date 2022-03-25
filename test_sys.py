@@ -1,4 +1,6 @@
 import unittest
+from unittest.mock import patch, call
+import io
 from program import main
 
 class Sys_Tests(unittest.TestCase):
