@@ -18,6 +18,13 @@ class Sys_Tests(unittest.TestCase):
                 with patch('builtins.input', side_effect=inputs) as mock_input:
                     main()
 
+    def test_testcase4(self):
+        with self.assertRaises(Exception):
+            inputs = ['-1','15']
+            with patch('sys.stdout', new_callable=io.StringIO) as mock_print:
+                with patch('builtins.input', side_effect=inputs) as mock_input:
+                    main()
+
 
 if __name__ == '__main__':
     unittest.main()
