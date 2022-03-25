@@ -17,7 +17,7 @@ def nok(n, m):
 def main():
     n = int(input())
     m = int(input())
-    print(nok(n,m))
+    print(nok(n,1))
 
 
 if __name__ == '__main__':
