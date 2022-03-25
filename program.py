@@ -11,7 +11,7 @@ def nod(n, m):
 
 
 def nok(n, m):
-    return n * (m // nod(n, m))
+    return n * m // nod(n, m)
 
 
 def main():
