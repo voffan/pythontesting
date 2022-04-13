@@ -2,7 +2,7 @@ def nod(n, m):
     if n < 0 or m < 0:
         raise Exception('n<=0 or m<=0! n and m should be positive numbers!')
     elif n == 0 or m == 0:
-        raise ZeroDivisionError()
+        raise ZeroDivisionError() 
     while n > 0 and m > 0:
         r = n % m
         n = m
