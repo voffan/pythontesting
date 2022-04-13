@@ -28,7 +28,7 @@ jobs:
     - name: Clone tests
       uses: actions/checkout@v3
       with:
-        repository: 'https://github.com/voffan/fiit-21-tests'
+        repository: 'voffan/fiit-21-tests'
         path: 'tests'
     - name: Test program
       run: |
